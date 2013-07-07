@@ -16,12 +16,15 @@ I hope somebody can distribute their configurations over pull request.
 
 ## Installation
 
-1. using [HomeBrew](http://mxcl.github.io/homebrew/) install Uncrustify
+1. using [HomeBrew](http://mxcl.github.io/homebrew/) install Uncrustify 
 ```
 brew install uncrustify --HEARD
 ```
 - install [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode/blob/master/README.md#installation)
-- clone this repo and copy `uncrustify.cfg` to `~` or other folder as [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode/blob/master/README.md#how-to-customize-the-uncrustify-configuration) said.
+- clone this repo to `~/.uncrustify/` or other folder as [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode/blob/master/README.md#how-to-customize-the-uncrustify-configuration) said.
+```
+git clone https://github.com/dijkst/uncrustify-config-ios.git ~/.uncrustify
+```
 
 ## Example
 
