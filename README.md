@@ -1,4 +1,3 @@
-
 uncrustify config for iOS developer
 
 ## What is it
@@ -26,7 +25,7 @@ brew install uncrustify --HEARD
 
 ## Example
 
-1. align code:
+#### align code:
 
 before:
 ``` objective-c
@@ -41,7 +40,7 @@ NSString *const BBUncrustifyOptionSourceFilename                   = @"sourceFil
 NSString *const BBUncrustifyOptionSupplementalConfigurationFolders = @"supplementalConfigurationFolders";
 ```
 
-2. remove space:
+#### remove space:
 
 before:
 ``` objective-c
@@ -52,7 +51,7 @@ after:
 - (void)viewWillEnter;
 ```
 
-3. insert newline between methods
+#### insert newline between methods
 
 ``` objective-c
 - (void)a {
