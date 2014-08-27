@@ -18,7 +18,7 @@ You can distribute your configurations over pull request.
 
 1. using [HomeBrew](http://mxcl.github.io/homebrew/) install Uncrustify 
 ```
-brew install uncrustify --HEARD
+brew install uncrustify --HEAD
 ```
 - install [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode/blob/master/README.md#installation)
 - clone this repo to `~/.uncrustify/` or other folder as [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode/blob/master/README.md#how-to-customize-the-uncrustify-configuration) said.
