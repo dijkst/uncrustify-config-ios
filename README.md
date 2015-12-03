@@ -16,7 +16,7 @@ You can distribute your configurations over pull request.
 
 ## Installation
 
-1. using [HomeBrew](http://mxcl.github.io/homebrew/) install Uncrustify 
+1. using [HomeBrew](http://mxcl.github.io/homebrew/) install Uncrustify
 ```
 brew install uncrustify --HEAD
 ```
@@ -26,9 +26,14 @@ brew install uncrustify --HEAD
 git clone https://github.com/dijkst/uncrustify-config-ios.git ~/.uncrustify
 ```
 
+### Custom
+
+Default settings disable the alignment of continued assignment or variable definition. If you need them, just set `align_assign_span`, `align_var_def_span` and `align_oc_msg_spec_span` to `1`.
+
+
 ## Example
 
-#### align code:
+#### ~~align code~~ (unsupported, please read `Custom`):
 
 before:
 ``` objective-c
@@ -75,4 +80,4 @@ and so on.
 
 ## License
 
-uncrustify-config-ios is available under the MIT license. 
+uncrustify-config-ios is available under the MIT license.
